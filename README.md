@@ -1,3 +1,6 @@
+## 📍 Try it on Hugging Face
+[![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-orange?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/karthsanth/ai_grade_assesser)
+
 **# Problem Statement**
 - Develop an AI-based system to predict a student’s final grade using features like attendance, participation, assignment scores, and exam marks.
 - Leverage machine learning models to provide accurate predictions, enabling educational institutions to better understand student performance and intervene when necessary.
