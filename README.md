@@ -1,4 +1,4 @@
-## 📍 Try it on Hugging Face
+## 📍 Try it on Hugging Face [click the icon for deployed app]
 [![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-orange?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/karthsanth/ai_grade_assesser)
 
 **# Problem Statement**
