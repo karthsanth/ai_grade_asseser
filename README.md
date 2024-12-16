@@ -1,10 +1,13 @@
-Problem Statement
+**Problem Statement**
+
 The goal of this project is to develop an AI-based system that predicts a student's final grade
 using relevant features like attendance, participation, assignment scores, and exam marks.
 The objective is to leverage machine learning models to provide accurate predictions,
 enabling educational institutions to better understand student performance and intervene
 when necessary.
-Approach
+
+**Approach**
+
 1. Data Collection & Preprocessing
 ● Dataset: The Student Performance Dataset was used, which contains features like
 school, sex, address, family size, parental education, and prior grades.
@@ -12,6 +15,7 @@ school, sex, address, family size, parental education, and prior grades.
 label-encoded to convert them into numerical representations.
 ● Feature Selection: The feature set included all columns except the final grade (G3),
 which served as the target variable.
+
 2. Model Development
 ● Decision Tree Regressor:
 ○ A Decision Tree Regressor was trained using an 80-20 train-test split.
@@ -28,6 +32,7 @@ respectively, both using ReLU activation.
 ○ The model was compiled with the Adam optimizer and mean squared error
 loss function.
 ○ The model was trained over 50 epochs with a batch size of 32.
+
 3. Deployment
 ● Gradio: An interactive web interface was created using Gradio to allow users to input
 student details and view the predicted grade from both the Decision Tree and ANN
@@ -35,6 +40,7 @@ models.
 ● Streamlit: An alternative deployment was created using Streamlit, where users can
 enter student details and view grade predictions in real time.
 Results
+
 1. Model Performance
 ● Decision Tree Regressor:
 ○ RMSE: {Insert RMSE value}
@@ -46,12 +52,12 @@ prior grades, study time, and absences.
 ○ Loss Curve: Training and validation loss curves showed model convergence
 over 50 epochs.
 ○ Confusion Matrix (if classification method used):
-2. Visualizations
+**2. Visualizations**
 ● Feature Importance Plot: Displays the relative importance of each feature in the
 Decision Tree model.
 ● Training Loss Plot: Shows how the ANN's training and validation loss changed over
 time.
-Challenges
+**Challenges**
 1. Data Quality Issues
 ● Challenge: Categorical variables needed to be converted into numeric format.
 ● Solution: Used Label Encoding to convert categories into numerical values for
